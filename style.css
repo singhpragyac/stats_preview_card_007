@@ -1,0 +1,56 @@
+@font-face {
+    font-family:'Inter-Boldltalic';
+    src: url('font/Inter_24pt-Regular.ttf');
+}
+
+
+* {
+    font-family:'Inter-Boldltalic';
+}
+
+
+.main {
+    width: 904px;
+    display: flex;
+    margin-left: 230px;
+    margin-top: 122px;
+    text-align: center
+}
+  
+
+
+.first {
+    height: 375px;
+  width: 467px;
+  background-color:  hsl(244, 38%, 16%);
+  border-radius: 5px 0px 0px 5px;
+}
+
+
+.second {
+    height: 375px;
+  width: 456px;
+  background-image: url(img/image-header-desktop.jpg);
+  background-size: cover;
+  border-radius: 0px 5px 5px 0px;
+  opacity: 2px;
+  background-color: blueviolet;
+  opacity: 0.6;
+}
+
+.color {
+    color: white;
+}
+
+.top_content {
+    margin: 44px;
+  font-size: 35px;
+  margin-left: 10px;
+}
+
+
+.bottom_content {
+    justify-content: center;
+    display: flex;
+    margin-top: 57px;
+}
